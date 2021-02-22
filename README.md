@@ -38,9 +38,9 @@ You have to implement a simple REST API.
 
 6. Given resources:
 
-   * [`electricity-consumptions.csv`](src/main/resources/data/electricity-consumption.csv): Contains hourly based consumption values for electricity meters.
+   * [`electricity-consumption.csv`](src/main/resources/data/electricity-consumption.csv): Contains hourly based consumption values for electricity meters.
         > **Hint:** Each electricity meter has a unique `meter_id` and is assigned to a building having a unique `building_id`. The electricity consumption `consumption_kwh` was measured in the unit kWh over a period of one hour. Each consumption period started at UTC time `timestamp_utc`.
-   * [`heat-consumptions.csv`](src/main/resources/data/heat-consumptions.csv): Contains fifteen minutes based consumption values for heat meters.
+   * [`heat-consumption.json`](src/main/resources/data/heat-consumption.json): Contains fifteen minutes based consumption values for heat meters.
         > **Hint:** Each heat meter has a unique `mid` and is assigned to a building having a unique `bid`. The heat consumption `v` was measured in the unit kWh over a fifteen minutes period. Each consumption period started at UTC time `ts`.
           
 ## Tasks
