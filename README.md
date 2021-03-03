@@ -49,9 +49,9 @@ You have to implement a simple REST API.
 
 2. Implement an API endpoint in order to provide all consumption data ordered by time and meter.
 
-3. Implement an API endpoint in order to provide consumption for a given meter.
+3. Implement an API endpoint in order to provide all consumption data ordered by time for a given meter.
 
-4. Implement an API endpoint in order to provide energy (electricity + heat) consumption for a given building.
+4. Implement an API endpoint in order to provide all energy consumption data ordered by time with a resolution of 15 minutes for a given building.
 
    > **Hint**: Energy consumption includes both electricity and heat. It is measured in the unit kWh.
 
